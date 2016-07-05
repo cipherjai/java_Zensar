@@ -1,6 +1,6 @@
 class Circle
 {
-	
+
 	//Declaring instance variable
 	private double circleRadius;
 
@@ -14,7 +14,7 @@ class Circle
 
 	public Circle(int radius, int temp)// parameterized
 	{
-		circleRadius = 2;
+		circleRadius = radius;
 		count = temp;
 	}
 
@@ -23,10 +23,18 @@ class Circle
 		circleRadius = radius;
 	}
 
-	public static double calculateArea()// called from another class
+	public int getRadius()
 	{
-		double area = 0.0;
-		area = 2*1.732*circleRadius;
-		return area;
+		return circleRadius;
+	}
+
+	public double calculateArea()// called from another class
+	{
+		return 1.732*circleRadius*circleRadius ;
+	}
+
+	public String toString()
+	{
+		return (1.732*circleRadius*circleRadius)+"";
 	}
 }
