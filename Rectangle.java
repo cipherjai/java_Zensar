@@ -8,8 +8,38 @@ public class Rectangle
 		rectangleLength = 5;
 		rectangleBreadth = 6;
 	}
+	/*param
+	toString
+	get 
+	set
+	*/
+	Rectangle(int len,int breadth)
+	{
+		rectangleBreadth = breadth;
+		rectangleLength = len;
+	}
 
-	public String toAyush()
+	public void setLength(int length)
+	{
+		rectangleLength = length;
+	}
+
+	public int getLength()
+	{
+		return rectangleLength ;
+	}
+
+	public void setBreadth(int breadth)
+	{
+		rectangleBreadth = breadth ;
+	}
+
+	public int getBreadth()
+	{
+		return rectangleBreadth ;
+	}
+
+	public String toString()
 	{
 		return (rectangleBreadth*rectangleLength)+"";
 	}
