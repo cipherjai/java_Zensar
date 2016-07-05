@@ -1,7 +1,7 @@
 public class Account
 {
-	
-	// instance variable
+
+	// instance variable declared
 
 	private int accountNumber;
 	private String accountHolderName;
@@ -31,7 +31,7 @@ public class Account
 		return accountBalance;
 	}
 
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		Account account = new Account();
 		System.out.println("Set the account");

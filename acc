@@ -34,9 +34,10 @@ public class Account
     return accountBalance;
   }
 
-
-
-
+  public String toString()
+  {
+    return accountBalance+"";
+  }
 
   public static void main(String[] args)
   {
