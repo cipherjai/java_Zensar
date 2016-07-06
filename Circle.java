@@ -1,3 +1,4 @@
+package shape;
 class Circle
 {
 
@@ -23,7 +24,7 @@ class Circle
 		circleRadius = radius;
 	}
 
-	public int getRadius()
+	public double getRadius()
 	{
 		return circleRadius;
 	}

@@ -9,6 +9,12 @@ public class Client
 
 		System.out.println(circle.getCalculatedArea());
 
+		Rectangle rectangle = new Rectangle();
+
+		System.out.println(rectangle.getBreadth());
+
+
+
 
 
 
